@@ -1,10 +1,10 @@
 package org.example.classes;
 
-public class Ravenclaw extends Hogwarts {
+public class Ravenclaw extends org.example.classes.Hogwarts {
 
     private int diligence;
 
-    private int loyalty;|
+    private int loyalty;
 
     private int honesty;
 

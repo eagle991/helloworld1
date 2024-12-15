@@ -1,10 +1,10 @@
 package org.example.classes;
 
-public class Slytherin extends Hogwarts {
+public class Slytherin extends org.example.classes.Hogwarts {
 
     private int trick;
 
-    private int determination;|
+    private int determination;
 
     private int resourcefulness;
     private int ambition;

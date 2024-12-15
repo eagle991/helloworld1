@@ -1,6 +1,7 @@
 package org.example.classes;
 
-public class Gryffindor extends Hogwarts {
+public class Gryffindor extends org.example.classes.Hogwarts {
+
 
     private int nobility;
 
@@ -8,8 +9,8 @@ public class Gryffindor extends Hogwarts {
 
     private int bravery;
 
-    public Gryfflndor (String firstName, String lastName, int powerMagic, int nobility, int honor, int bravery) {
-        super(firstName, lastName, powerMagic, distanceOfTransgression);
+    public Gryffindor (String firstName, String lastName, int powerMagic, int nobility, int honor, int bravery) {
+        super (firstName, lastName, powerMagic, distanceOfTransgression);
         this.nobility = nobility;
         this.honor = honor;
         this.bravery = bravery;

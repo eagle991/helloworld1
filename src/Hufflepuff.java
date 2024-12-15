@@ -1,16 +1,16 @@
 package org.example.classes;
 
-public class Hufflepuff extends Hogwarts {
+public class Hufflepuff extends org.example.classes.Hogwarts {
 
     private int smart;
 
-    private int wisdom;|
+    private int wisdom;
 
     private int wit;
 
     private int creativity;
 
-    public Gryfflndor(String firstName, String lastName, int powerMagic, int smart, int wisdom, int creativity) {
+    public Hufflepuff(String firstName, String lastName, int powerMagic, int smart, int wisdom, int creativity) {
         super(firstName, lastName, powerMagic, distanceOfTransgression);
         this.smart = smart;
         this.wisdom = wisdom;
