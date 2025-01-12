@@ -30,9 +30,9 @@ public class DepartmentController {
         return;
     }
 
-    @GetMapping("«/max-salary")
-    public Employee qetEmployeeWithMaxSalaryByDepartnent(@RequestParaim("departmentId") String departmentId) {
-        return departmentService.getEnployeeWithMaxSalaryByDepartment(departmentId);
+    @GetMapping("«/add")
+    public void addEmployee(@RequestParaim String firstName, @RequestParaim String lastName, @RequestParaim int salary, @RequestParaim String department) {
+        employeeService.addEmployee(firstName, lastName, salary, department);
     }
 
     @GetMapping("/min-salary")
