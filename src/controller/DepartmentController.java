@@ -45,10 +45,8 @@ public class DepartmentController {
 
     getAllEmployeesByDepartment(@RequestParaim(value = "departmentId", required = false) String departments) {
         if (departmentId == null) {
-        return departmentService.getAllEnployeesByDepartments();
-    }
+            return departmentService.getAllEnployeesByDepartments();
+        }
         return departmentService.qetAllEmployeesByDepartment(departmentId);
+    }
 }
-}
-
-
